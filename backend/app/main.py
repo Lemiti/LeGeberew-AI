@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import disease  # We will add market and weather later
+from app.routes import disease, market  # We will add market and weather later
 
 app = FastAPI(
     title="LeGeberew AI API",
@@ -19,7 +19,7 @@ app.add_middleware(
 
 # 2. Include Routers (Modular Setup)
 app.include_router(disease.router, prefix="/api/v1/disease", tags=["Plant Doctor"])
-
+app.include_router(market.router, prefix="/api/v1/market", tags=["Market Intelligence"])
 # 3. Root Endpoint
 @app.get("/")
 async def root():
