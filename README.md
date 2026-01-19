@@ -17,7 +17,8 @@ Smallholder farmers form the backbone of Ethiopia's economy but face a "Triple T
 *   **🩺 Digital Plant Doctor:** Instant diagnosis of coffee, maize, and potato diseases using a lightweight AI model. Provides expert treatment advice in **Amharic**.
 *   **📊 Intelligent Market Connect:** Real-time price transparency across major Ethiopian hubs (Addis Ababa, Adama, Jimma, etc.) to bypass exploitative middlemen.
 *   **☁️ Smart Farming Alerts:** Personalized irrigation and planting guidance based on localized weather patterns.
-
+![](https://github.com/Lemiti/LeGeberew-AI/blob/main/imgs/home.jpg)
+> *Home page of the app*
 ## 🧠 Model Performance
 Our AI engine utilizes **Transfer Learning** with a **MobileNetV2** architecture, optimized for mobile deployment via TensorFlow Lite.
 
