@@ -24,7 +24,7 @@ Our AI engine utilizes **Transfer Learning** with a **MobileNetV2** architecture
 *   **Accuracy:** Achieved **~94.5% Validation Accuracy**.
 *   **Loss:** Successfully converged to **<0.18 Validation Loss** over 10 epochs.
 *   **Optimization:** The model is compressed to `.tflite` format for sub-second inference on standard hardware.
-![[img/training_curve.png]]
+![](https://github.com/Lemiti/LeGeberew-AI/blob/main/imgs/training_curve.png)
 > *The training curves show a healthy learning rate and high generalization capabilities for Ethiopian crop varieties.*
 
 ## 🛠️ Technology Stack
