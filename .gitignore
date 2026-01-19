@@ -77,9 +77,9 @@ logs/
 *.sqlite3
 
 # Image files (exclude all images from datasets)
-*.jpg
-*.jpeg
-*.png
+
+
+
 *.tiff
 *.bmp
 *.gif
